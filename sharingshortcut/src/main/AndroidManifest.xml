@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.husaynhakeem.sharingshortcut">
+
+    <application>
+
+        <activity android:name=".MainActivity"
+                  android:label="@string/main_title">
+
+            <meta-data android:name="android.app.shortcuts"
+                       android:resource="@xml/shortcuts"/>
+        </activity>
+
+        <activity android:name=".SendMessageActivity"
+                  android:label="@string/send_message_title"
+                  android:theme="@style/DialogTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+
+            <meta-data android:name="android.service.chooser.chooser_target_service"
+                       android:value="androidx.sharetarget.ChooserTargetServiceCompat"/>
+        </activity>
+
+    </application>
+</manifest>

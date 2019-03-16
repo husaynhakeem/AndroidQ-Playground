@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidQ Playground</string>
+    <string name="feature_sharing_shortcut_label">Sharing Shortcut</string>
+</resources>

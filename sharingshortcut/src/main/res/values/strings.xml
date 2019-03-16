@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SharingShortcut</string>
+    <string name="main_header">You can either dejfuf</string>
+    <string name="main_share">Share</string>
+    <string name="main_invalid_input_error">Invalid input: Input must not be empty</string>
+    <string name="main_chooser_title">Share with</string>
+    <string name="main_title">Sharing Shortcut</string>
+    <string name="send_message_title">Send Message</string>
+</resources>
