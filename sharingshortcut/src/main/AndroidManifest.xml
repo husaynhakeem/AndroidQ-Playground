@@ -24,5 +24,9 @@
                        android:value="androidx.sharetarget.ChooserTargetServiceCompat"/>
         </activity>
 
+        <activity android:name=".SelectDroidActivity"
+                  android:label="@string/select_droid_title"
+                  android:theme="@style/DialogTheme"/>
+
     </application>
 </manifest>

@@ -7,7 +7,6 @@ android {
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 }
 
@@ -15,9 +14,6 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
     implementation "androidx.appcompat:appcompat:$appCompatVersion"
     implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+    implementation "androidx.recyclerview:recyclerview:$recyclerViewVersion"
     implementation "androidx.sharetarget:sharetarget:$shortcutsVersion"
-}
-
-repositories {
-    mavenCentral()
 }

@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.husaynhakeem.sharingshortcut.utilities.SharingShortcutManager
 import kotlinx.android.synthetic.main.sharingshortcut_activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -13,6 +14,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.sharingshortcut_activity_main)
         setupView()
         publishShareTargets()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        removeShareTargets()
     }
 
     private fun setupView() {
@@ -43,5 +49,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun publishShareTargets() {
         SharingShortcutManager().addAllShareShortcuts(this)
+    }
+
+    private fun removeShareTargets() {
+        SharingShortcutManager().removeAllShareShortcuts(this)
     }
 }

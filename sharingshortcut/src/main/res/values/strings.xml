@@ -1,9 +1,22 @@
 <resources>
-    <string name="app_name">SharingShortcut</string>
-    <string name="main_header">You can either dejfuf</string>
+    <string name="app_name">Sharing Shortcut</string>
+
+    <!-- Main Activity -->
+    <string name="main_header">This is a \"Sharing shortcut\" example, a feature introduced in android Q. You can see it in action by either:\n- Entering some text below, then pressing the share button.\n- Sharing text from any other app.</string>
     <string name="main_share">Share</string>
     <string name="main_invalid_input_error">Invalid input: Input must not be empty</string>
     <string name="main_chooser_title">Share with</string>
     <string name="main_title">Sharing Shortcut</string>
-    <string name="send_message_title">Send Message</string>
+
+    <!-- Send message Activity -->
+    <string name="send_message_title">Share Message</string>
+    <string name="send_message_to">To</string>
+    <string name="send_message_message">Message</string>
+    <string name="send_message_dummy_message">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare eleifend metus, non pharetra tellus euismod id. Donec vel interdum massa. Maecenas congue, dolor finibus imperdiet cursus, ante diam posuere diam, eget euismod ante risus et risus. Quisque vel lectus ac ante lobortis condimentum maximus non arcu. Quisque quis augue vel nulla malesuada placerat. Integer eget varius orci. Aliquam pharetra malesuada risus, eu fringilla ante eleifend sit amet. Ut ut dignissim dui. Nullam tincidunt vehicula massa, a pretium sem sollicitudin eget. Duis quam nibh, aliquet id quam eu, placerat rhoncus justo. Cras a nunc et mauris dapibus mattis a eget eros. Pellentesque convallis elementum nisl ut viverra. Cras id arcu quis purus iaculis tincidunt.</string>
+    <string name="send_message_share">Share</string>
+    <string name="send_message_success_message">Your message was sent to %s</string>
+
+    <!-- Select droid Activity -->
+    <string name="select_droid_title">Select Droid</string>
+    <string name="main_message_hint">Enter your message here</string>
 </resources>

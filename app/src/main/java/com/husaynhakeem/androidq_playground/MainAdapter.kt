@@ -7,6 +7,7 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.husaynhakeem.androidq_playground.data.Feature
 import kotlinx.android.synthetic.main.item_main.view.*
 
 class MainAdapter : ListAdapter<Feature, MainAdapter.MainViewHolder>(MainAdapter.MainDiffUtil()) {

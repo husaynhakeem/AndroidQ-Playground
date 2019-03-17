@@ -3,7 +3,7 @@
 
     <share-target android:targetClass="com.husaynhakeem.sharingshortcut.SendMessageActivity">
         <data android:mimeType="text/plain"/>
-        <category android:name="com.husaynhakeem.sharingshortcut.category.SEND_EMAIL"/>
+        <category android:name="com.husaynhakeem.sharingshortcut.category.SEND_TEXT"/>
     </share-target>
 
 </shortcuts>

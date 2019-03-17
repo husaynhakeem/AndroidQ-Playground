@@ -1,4 +1,4 @@
-package com.husaynhakeem.androidq_playground
+package com.husaynhakeem.androidq_playground.data
 
 import androidx.annotation.ColorRes
 import androidx.annotation.StringRes
