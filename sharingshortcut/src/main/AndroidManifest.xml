@@ -4,7 +4,7 @@
     <application>
 
         <activity android:name=".MainActivity"
-                  android:label="@string/main_title">
+                  android:label="@string/sharingshortcut_main_title">
 
             <meta-data android:name="android.app.shortcuts"
                        android:resource="@xml/shortcuts"/>

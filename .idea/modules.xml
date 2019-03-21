@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidQ-Playground.iml" filepath="$PROJECT_DIR$/AndroidQ-Playground.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/settingspanel/settingspanel.iml" filepath="$PROJECT_DIR$/settingspanel/settingspanel.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharingshortcut/sharingshortcut.iml" filepath="$PROJECT_DIR$/sharingshortcut/sharingshortcut.iml" />
     </modules>
   </component>

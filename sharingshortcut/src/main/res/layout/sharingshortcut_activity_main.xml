@@ -16,7 +16,7 @@
         <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="@string/main_header"
+                android:text="@string/sharingshortcut_main_header"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
                 app:layout_constraintStart_toStartOf="@id/mainStartGuideline"
                 app:layout_constraintEnd_toEndOf="@id/mainEndGuideline"

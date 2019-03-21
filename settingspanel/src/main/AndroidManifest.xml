@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.husaynhakeem.settingspanel">
+
+    <application>
+
+        <activity android:name=".MainActivity"
+                  android:label="@string/settingspanel_main_title"/>
+
+    </application>
+
+</manifest>
