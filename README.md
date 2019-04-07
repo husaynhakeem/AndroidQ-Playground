@@ -16,4 +16,4 @@ A floating UI that shows system settings directly in the context of an app by ta
 - #### Location permission
 Users now have more control over when apps can get access to device location. When an app running on Android Q requests location access, users are prompted with a dialog which allows the, to grant location access to two different extents: while in use (foreground only) or all the time (foreground and background).
 
-![alt text](https://github.com/husaynhakeem/AndroidQ-Playground/blob/master/art/androidq_localtion_permission.png)
+![alt text](https://github.com/husaynhakeem/AndroidQ-Playground/blob/master/art/androidq_location_permission.png)
