@@ -1,1 +1,1 @@
-include ':app', ':sharingshortcut', ':settingspanel'
+include ':app', ':sharingshortcut', ':settingspanel', ':location'

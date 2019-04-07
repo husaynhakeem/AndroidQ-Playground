@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">location</string>
+    <string name="location_main_label">Location</string>
+    <string name="location_main_header">This is an example for accessing the device\'s location with the new background
+        restrictions android Q brings to this feature.\n\nThe first button requests the permission to access the
+        device\'s location in the foreground while the second button requests to access the device\'s location in the
+        background.
+    </string>
+    <string name="main_foreground_permission_label">Request foreground permission</string>
+    <string name="main_background_permission_label">Request background permission</string>
+    <string name="main_foreground_permission_already_granted">Foreground permission already granted.</string>
+    <string name="main_foreground_permission_granted">Foreground permission has been granted.</string>
+    <string name="main_background_permission_already_granted">Background permission already granted.</string>
+    <string name="main_background_permission_granted">Background permission has been granted.</string>
+    <string name="main_android_version_not_supported">Running this example requires android P or higher</string>
+</resources>

@@ -2,4 +2,5 @@
     <string name="app_name">AndroidQ Playground</string>
     <string name="feature_sharing_shortcut_label">Sharing Shortcut</string>
     <string name="feature_settings_panel_label">Settings panel</string>
+    <string name="feature_location_label">Location</string>
 </resources>
