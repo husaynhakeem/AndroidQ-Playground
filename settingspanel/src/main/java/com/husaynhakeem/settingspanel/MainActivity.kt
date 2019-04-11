@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.settings_panel_activity_main)
 
-        mainInternetButton.setOnClickListener { displaySettingsPanel(Settings.Panel.ACTION_INTERNET_CONNECTIVITY) }
+        mainInternetButton.setOnClickListener { startActivity(Intent(this, InternetConnectivityActivity::class.java)) }
         mainNfcButton.setOnClickListener { displaySettingsPanel(Settings.Panel.ACTION_NFC) }
         mainVolumeButton.setOnClickListener { displaySettingsPanel(Settings.Panel.ACTION_VOLUME) }
     }

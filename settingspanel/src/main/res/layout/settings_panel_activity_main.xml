@@ -12,7 +12,7 @@
             app:layout_constraintBottom_toTopOf="@+id/mainInternetButton"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:text="@string/settingspanel_main_header"
+            android:text="@string/settings_panel_main_header"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
             android:layout_marginBottom="16dp"/>
 

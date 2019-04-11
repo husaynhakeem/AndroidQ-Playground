@@ -1,8 +1,15 @@
 <resources>
-    <string name="settingspanel_main_title">Settings Panel</string>
+    <string name="settings_panel_main_title">Settings Panel</string>
     <string name="main_settings_panel_not_available">Settings panel is only available on android P and higher</string>
     <string name="main_internet_label">Internet connectivity</string>
     <string name="main_nfc_label">NFC</string>
     <string name="main_volume_label">Volume</string>
-    <string name="settingspanel_main_header">This is a \"Settings panel\" example, a feature introduced in android Q which allows displaying system setting that users might need without actually leaving the app. You can see it in action by clicking on one of the buttons below.</string>
+    <string name="settings_panel_main_header">This is a \"Settings panel\" example, a feature introduced in android Q
+        which allows displaying system setting that users might need without actually leaving the app. You can see it in
+        action by clicking on one of the buttons below.
+    </string>
+
+    <string name="settings_panel_network_connectivity_title">Settings Panel - Internet connectivity</string>
+    <string name="settings_panel_network_connectivity_no_connectivity_message">You are not connected to the internet.</string>
+    <string name="settings_panel_network_connectivity_no_connectivity_action">Connect</string>
 </resources>

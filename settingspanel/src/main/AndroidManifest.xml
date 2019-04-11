@@ -1,11 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.husaynhakeem.settingspanel">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application>
-
-        <activity android:name=".MainActivity"
-                  android:label="@string/settingspanel_main_title"/>
-
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/settings_panel_main_title"/>
+        <activity
+                android:name=".InternetConnectivityActivity"
+                android:label="@string/settings_panel_network_connectivity_title"/>
     </application>
 
 </manifest>
